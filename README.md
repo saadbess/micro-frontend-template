@@ -25,10 +25,13 @@ The _Host_ (Container) doesn't need the `shared` option because it's going to au
 
 ## Running the project
 
-Within each sub-project's root, run `npm run start`.
+Within each sub-project's root, run:
 
-_container_ will run on port `http://localhost:8080/`
-_products_ will run on port `http://localhost:8081/`
-_cart_ will run on port `http://localhost:8082/`
+- `npm install`
+- `npm run start`.
+
+- _container_ will run on port `http://localhost:8080/`
+- _products_ will run on port `http://localhost:8081/`
+- _cart_ will run on port `http://localhost:8082/`
 
 Each sub-project can be developed in isolation.
