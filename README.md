@@ -27,8 +27,13 @@ The _Host_ (Container) doesn't need the `shared` option because it's going to au
 
 Within each sub-project's root, run:
 
-- `npm install`
-- `npm run start`.
+```
+npm install
+```
+
+```
+npm run start
+```
 
 - _container_ will run on port `http://localhost:8080/`
 - _products_ will run on port `http://localhost:8081/`
